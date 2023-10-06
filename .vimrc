@@ -12,4 +12,5 @@ filetype plugin indent on
 syntax on
 hi CursorLine cterm=NONE ctermbg=darkgray ctermfg=white guibg=darkgray guifg=white
 set cursorline
+set laststatus=2
 
