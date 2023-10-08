@@ -10,6 +10,8 @@ set autoindent
 set nocompatible
 set cursorline
 set laststatus=2
+set exrc
+set secure
 filetype plugin indent on
 syntax on
 
