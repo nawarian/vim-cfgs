@@ -1,3 +1,9 @@
 [submodule "bundle/vim-sensible"]
 	path = bundle/vim-sensible
 	url = https://github.com/tpope/vim-sensible.git
+[submodule "bundle/vim-lsp-settings"]
+	path = bundle/vim-lsp-settings
+	url = git@github.com:mattn/vim-lsp-settings.git
+[submodule "bundle/vim-lsp"]
+	path = bundle/vim-lsp
+	url = git@github.com:prabirshrestha/vim-lsp.git
