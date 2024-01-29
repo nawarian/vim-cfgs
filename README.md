@@ -11,7 +11,8 @@ Then clone the repository into the `.vim` folder and download its submodules:
 
 ```
 $ git clone git@github.com:nawarian/vim-cfgs.git .vim
-# git submodules init
+$ git submodule init
+$ git submodule update
 ```
 
 Lastly, symlink the `.vimrc` file:
