@@ -20,16 +20,3 @@ hi CursorLine cterm=NONE ctermbg=darkgray ctermfg=white guibg=darkgray guifg=whi
 " Installl plugins
 execute pathogen#infect()
 
-function! s:on_lsp_buffer_enabled() abort
-  setlocal omnifunc=lsp#complete
-  setlocal signcolumn=yes
-  if exists('+tagfunc') |
-    setlocal tagfunc=lsp#tagfunc
-  | endif
-endfunction
-
-augroup lsp_install
-  au!
-  autocmd User lsp_buffer_enabled call s:on_lsp_buffer_enabled()
-augroup END
-
